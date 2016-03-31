@@ -1,13 +1,15 @@
+/*
+ * Cytonn Technologies
+ *
+ * @author: Joseph Gichane <jgichane@cytonn.com>
+ *
+ * Project: Angular- March 31.
+ *
+ */
 *{
 	margin:0;
 	padding:0;
 }
-
-
-/*-------------------------
-	General Styles
---------------------------*/
-
 
 body{
 	font:15px/1.3 'Open Sans', sans-serif;
@@ -27,11 +29,6 @@ a:hover{
 section, footer, header, aside, nav{
 	display: block;
 }
-
-
-/*-------------------------
-	The menu
---------------------------*/
 
 
 nav{

@@ -1,3 +1,11 @@
+/*
+ * Cytonn Technologies
+ *
+ * @author: Joseph Gichane <jgichane@cytonn.com>
+ *
+ * Project: Angular- March 31.
+ *
+ */
 function ctrl($scope) {
   $scope.rows = ['Ronnie Nyaga', 'Keneth thumi', 'Michael Wamae', 'Rodgers Opere', 'Ann Thiongo'];
   $scope.temp = false;
