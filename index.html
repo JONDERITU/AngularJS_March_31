@@ -44,7 +44,7 @@
     <div  ng-controller="ctrl">
       <hr>
       <h2>Cytonn Staff</h2>
-      <h2>{{rows.length}} Employee {{plural(rows)}} <span ng-show="temp">?<small class="muted"><em > (only {{rows.length-1}} actually....)</em></small></span></h2>
+      <h2>{{rows.length}} Employee{{plural(rows)}} <span ng-show="temp">?<small class="muted"><em > (only {{rows.length-1}} actually....)</em></small></span></h2>
       <form class="form-horizontal">
           <span ng-class="{'input-append':addName}">
             <input id="add" type="text" placeholder="Another one ?" ng-model="addName" ng-change="addTemp()"/>
